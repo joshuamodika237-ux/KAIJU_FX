@@ -22,7 +22,7 @@ input int    TakeProfitPoints = 800;            // take profit in points (0 = no
 input bool   UseTrailing      = true;
 input int    TrailingStartPts = 300;            // start trailing after this many points
 input int    TrailingStepPts  = 100;
-input int    MaxTrades        = 1;
+input int    MaxTrades        = 3;
 input int    TradeStartHour   = 0;              // server time
 input int    TradeEndHour     = 24;
 input bool   TradeOnMonday    = true;
