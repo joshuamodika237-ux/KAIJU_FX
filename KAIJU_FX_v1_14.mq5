@@ -20,7 +20,7 @@ input int    TakeProfitPoints = 800;    // 0 = no TP
 input bool   UseTrailing      = true;
 input int    TrailingStartPts = 300;
 input int    TrailingStepPts  = 100;
-input int    MaxTrades        = 1;
+input int    MaxTrades        = 3;
 input int    TradeStartHour   = 0;      // broker/server time; 0-23
 input int    TradeEndHour     = 24;     // exclusive; 24 means through end of day
 input bool   TradeOnMonday    = true;
